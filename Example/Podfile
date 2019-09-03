@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'TLTestPods_Example' do
-  pod 'TLTestPods', :path => '../'
+  pod 'TLTestPods', :path => '../TLTestPods.podspec'
 
   target 'TLTestPods_Tests' do
     inherit! :search_paths
