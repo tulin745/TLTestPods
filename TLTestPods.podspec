@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'TLTestPods/Classes/**/*'
+  s.source_files = 'TLTestPods/Classes/**.{h,m}'
   
   # s.resource_bundles = {
   #   'TLTestPods' => ['TLTestPods/Assets/*.png']
